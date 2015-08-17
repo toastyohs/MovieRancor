@@ -12,6 +12,8 @@ using MovieRancor.Models;
 
 namespace MovieRancor.Controllers
 {
+    //There is a lot of default user controller stuff in here, try not to touch it. This excludes the GET/POST requests, as those represent our pages. This will need to be reshaped to view an individual member and their posted reviews or comments, and options to create reviews,
+    //however the person who works on this sees fit. Also in here would be something like a home center for logged in individuals, showing responses to their comments/reviews/whatever. This also handles what information we get and keep at login.
     [Authorize]
     public class AccountController : Controller
     {
